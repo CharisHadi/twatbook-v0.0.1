@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS twatbookdb;
+CREATE DATABASE twatbookdb;

@@ -1,7 +1,7 @@
 {
-  "name": "node-handlebars-boilerplate",
-  "version": "1.0.0",
-  "description": "Project 2 Starter",
+  "name": "TwatBook",
+  "version": "0.0.1",
+  "description": "Open Source, Encrypted Social Media site",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
