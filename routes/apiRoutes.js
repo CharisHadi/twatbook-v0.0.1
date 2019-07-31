@@ -9,4 +9,10 @@ module.exports = function(app) {
         });
     });
 
+    //Create Users
+    app.post("/api/users/create", function(req, res) {
+        db.User.create(req.body).then(function(dbUser) {
+            res.json(dbUser);
+        });
+    });
 };
