@@ -23,6 +23,14 @@ module.exports = function(app) {
         });
     });
 
+    //Decrypt User's password
+    app.get("/api/users/decrypt/:id", function(req, res) {
+        db.User.findOne({where: {id: req.params.id} }).then((dbUser)=>{
+            var decrypted = key.decrypt(dbUser.pword);
+            res.send(decrypted);
+        });
+    });
+
     //Delete user by ID
     app.delete("/api/users/delete/:id", function(req, res) {
         db.User.destroy({where: {id: req.params.id} }).then((dbUser) => {
