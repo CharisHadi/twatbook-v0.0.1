@@ -1,60 +1,23 @@
-.list-group-item {
-    line-height: 2.5;
-  }
-  
-  .container {
-    width: 300px;
-    clear: both;
-  }
-  
-  .container input {
-    width: 100%;
-    clear: both;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  h2 {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  
-  .noLoginLink {
-    text-align: center;
-    width: 100%;
-    clear: both;
-  }
-  
-  #logo {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    height: 15%;
-  }
-  
-  .header{
+.round{
     font-family: 'Varela Round', sans-serif;
-    color:darkblue;
-    font-size: 48px;
-  }
-  
-  input {
-    font-family: 'Lobster', cursive;
-    color: darkblue;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  label {
-    font-family: 'Lobster', cursive;
-  }
-  
-  .my-wrap {
-    width: 100%;
-    margin: 10px 0px 10px 0px;
-    text-align: center;  
-    font-family: 'Raleway Dots', cursive;
-  }
+}
+
+.title {
+font-family: 'Varela Round', sans-serif; 
+color: white
+}
+
+h5 {
+    font-family: 'Varela Round', sans-serif; 
+    color: white;
+}
+
+.mod-marg{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.form-text{
+    font-family: 'Varela Round', sans-serif; 
+    padding-left : 5px;
+}

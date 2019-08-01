@@ -9,20 +9,71 @@
     <!-- *** Links & CDNs *** -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+   
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway+Dots|Varela+Round&display=swap"
         rel="stylesheet">
-    <script src="handlebars-v4.1.2.js"></script>
 </head>
 
-<nav class="navbar navbar-dark bg-dark">
-    <img src="../assets/images/twat-icon.png" style="width: 2%;">
-    <a class="title navbar-brand"
-        style="color: white; font-family: 'Varela Round', sans-serif; position: fixed; left: 4%;">twatbook</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img id="logo" src="../assets/images/twat-icon.png" href="/" style="width: 2%;">
+    <a class="navbar-brand title" href="/" style="margin-left: 5px;">twatbook</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle title" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Join Us!
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"><button type="button" class="btn btn-block title" data-toggle="modal" data-target="#bd-login-modal-lg">Log In</button></a>
+                <div class="dropdown-divider bg-dark"></div>
+            <a class="dropdown-item" href="#"><button type="button" class="btn btn-block title" data-toggle="modal" data-target="#bd-signup-modal-lg">Sign Up</button></a>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
 </nav>
 
 <body>
+            <div class="modal fade" id = "bd-login-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content d-flex justify-content-center">
+                        <h5 class="modal-title bg-dark">Log In</h5>
+                        Ayyy wassup my guy
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id = "bd-signup-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <h5 class="modal-title bg-dark title mod-marg">Sign Up</h5>
+                        <div>
+                            <form class="clearfix mb-4" action="">
+                                <div class="form-group">
+                                    <label for="username-form" class="form-text">Username</label>
+                                    <input type="text" id="username-form" class="form-control" aria-describedby="ThanosCar" placeholder="Enter Username Here">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password-form" class="form-text">Password</label>
+                                    <input type="text" id="password-form" class="form-control" aria-describedby="bigcat123" placeholder="Enter Password Here">
+                                    <label for="repassword-form" class="form-text">Re-Enter Password</label>
+                                    <input type="text" id="repassword-form" class="form-control" aria-describedby="bigcat123" placeholder="Re-Enter Password Here">
+                                </div>
+                                <button id="btn-signup" class="btn btn-outline-drk float-right round">Submit</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 {{{body}}}
 </body>
 
