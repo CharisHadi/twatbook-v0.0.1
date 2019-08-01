@@ -12,8 +12,10 @@ Upcoming/Unfinished Features:
 -More robust registration; error checking (duplication, criteria, etc.), email...
 -Friend system (relations between 2 users)
 -Messaging System (Directly messaging friends [possibly strangers])
--Posts (creating posts related to Author)
+-posts related to users
+-login/sessions/authentification
 -more[?]
+-reloading twerps when you post
 
 Unsolved:
 -Deploy ENV variable not properly being utilized for encryption

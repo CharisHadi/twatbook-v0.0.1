@@ -38,7 +38,7 @@ module.exports = function(app) {
     });
 
     //Post Twerps
-    app.post("/api/twerps/post", function(req, res) {
+    app.post("/api/twerps/create", function(req, res) {
         db.Twerp.create(req.body).then((dbTwerp) => {
             res.json(dbTwerp);
         })
