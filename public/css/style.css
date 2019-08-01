@@ -2,13 +2,39 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+.btn-feed{
+    position: absolute;
+    right:0;
+    bottom:0;
+}
 
+
+#feedico{
+    width:50px;
+}
+
+.btn-friend{
+    position:absolute;
+    right:70px;
+    bottom:0;
+}
+
+#friendico{
+    width:50px;
+}
+.timestamp{
+    position: absolute;
+    bottom: 5px;
+}
 
 .title {
 font-family: 'Varela Round', sans-serif; 
 color: white
 }
 
+.blu{
+    color:#2af;
+}
 h5 {
     font-family: 'Varela Round', sans-serif; 
     color: white;

@@ -10,7 +10,6 @@ module.exports = function(app) {
     });
 
 
-
     //404 Page
       // Render 404 page for any unmatched routes
     app.get("*", function(req, res) {
