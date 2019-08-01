@@ -33,7 +33,7 @@ var userSignUp = function(event) {
 
     API.createUser(signup).then(()=>{
         console.log("User Created");
-        alert("Welcome! You can login now, click outside of the form to procede.")
+        alert("Welcome! You're ready to throw out your twerps, click outside of the form to procede.");
     });
 
     $username.val("");
