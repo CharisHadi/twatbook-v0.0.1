@@ -23,8 +23,7 @@ var userSignUp = function(event) {
     event.preventDefault();
 
     if($password.val().trim() !== $repassword.val().trim()){
-        alert("Your passwords don't match!");
-        console.log($password.val().trim() + "|  |" + $repassword.val().trim());
+        alert("Make sure your passwords match!");
         return;
     }
     var signup = {
