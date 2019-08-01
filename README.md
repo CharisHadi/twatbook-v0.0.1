@@ -14,3 +14,6 @@ Upcoming/Unfinished Features:
 -Messaging System (Directly messaging friends [possibly strangers])
 -Posts (creating posts related to Author)
 -more[?]
+
+Unsolved:
+-Deploy ENV variable not properly being utilized for encryption

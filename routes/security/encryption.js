@@ -2,9 +2,9 @@ const crypto = require("crypto");
 var config = require("../../config/config.json");
 
 if (config.ENV_VAR_TEST){
-    var secretkey = config.ENV_VAR_TEST
+    var secretkey = process.env.ENV_VAR_TEST;
 }else{
-    var secretkey = "mypassword";
+    var secretkey = "lovelylads";
 }
 
 var key = {
