@@ -34,6 +34,8 @@
             <a class="dropdown-item" href="#"><button type="button" class="btn btn-block title" data-toggle="modal" data-target="#bd-login-modal-lg">Log In</button></a>
                 <div class="dropdown-divider bg-dark"></div>
             <a class="dropdown-item" href="#"><button type="button" class="btn btn-block title" data-toggle="modal" data-target="#bd-signup-modal-lg">Sign Up</button></a>
+                <div class="dropdown-divider bg-dark"></div>
+            <a class="dropdown-item" href="#"><button type="button" class="btn btn-block title" data-toggle="modal" data-target="#bd-twerp-modal-lg"><img src="../assets/images/postico.png" class="dropdownicon">Twerp</button></a>
         </div>
       </li>
 
@@ -79,17 +81,32 @@
                                     <label for="repassword-form" class="form-text">Re-Enter Password</label>
                                     <input type="text" id="repassword-form" class="form-control" aria-describedby="bigcat123" placeholder="Re-Enter Password Here">
                                 </div>
-                                <button id="btn-signup" class="btn btn-outline-drk float-right round">Submit</button>
+                                <button id="btn-signup" class="btn btn-outline-drk float-right round">Sign Up</button>
                             </form>
                         </div>
-
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id = "bd-twerp-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <h5 class="modal-title bg-dark title mod-marg">Twerp It Up</h5>
+                        <div>
+                            <form class="clearfix mb-4" action="">
+                                <div class="form-group">
+                                    <label for="author-form" class="form-text">Author</label>
+                                    <input type="text" id="author-form" class="form-control" aria-describedby="ThanosCar" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="twerp-form" class="form-text">Twerp</label>
+                                    <textarea id="password-form" class="form-control" aria-describedby="bigcat123" placeholder="Write your thoughts here"></textarea>
+                                </div>
+                                <button id="btn-twerp" class="btn btn-outline-drk float-right round">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
 {{{body}}}
 </body>
-
-<footer>
-    <img src="../assets/images/postico.png" class= "twerpitup">
-</footer>
 </html>

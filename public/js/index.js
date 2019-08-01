@@ -15,8 +15,21 @@ var API = {
             data: JSON.stringify(signUp)
         });
     },
+
+    getTwerps : function() {
+        return $.ajax({
+            url: "api/twerps",
+            type: "GET"
+        });
+    }
 };
 
+//Show twerps
+var populateTwerps = function(){
+    API.getTwerps().then((data)=>{
+        
+    });
+};
 
 //Sign up form submission
 var userSignUp = function(event) {
@@ -41,5 +54,9 @@ var userSignUp = function(event) {
     $repassword.val("");
 };
 
-
+var wowiezowie = function(event) {
+    event.preventDefault();
+    alert("WOAH");
+}
 $("#btn-signup").on("click", userSignUp);
+$("#twerpin").on("click", wowiezowie);

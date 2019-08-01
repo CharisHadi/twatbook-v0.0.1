@@ -3,7 +3,10 @@ var db = require("../models");
 module.exports = function(app) {
     //Load homepage
     app.get("/", function(req, res) {
-        res.render("index", {content: "pee pee poo poo"});
+        db.Twerp.findAll({}).then((dbTwerps)=>{
+            res.render("index", {twerps: dbTwerps});
+        })
+
     });
 
 

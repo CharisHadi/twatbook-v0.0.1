@@ -1,9 +1,9 @@
 
 
-<div class="container d-flex justify-content-center">
+<main role="main" class="container d-flex justify-content-center">
     {{#each twerps}}
     <div class="row">
-        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card text-white bg-dark mb-3" id = "{{@index}}"style="max-width: 18rem;">
             <div class="card-header title">{{this.author}}</div>
             <div class="card-body">
                 <p class="card-text title">{{this.content}}</p>
@@ -12,7 +12,7 @@
         </div>
     </div>
     {{/each}}
-</div>
+</main>
 
 
     {{!-- Jquery CDN --}}
