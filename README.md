@@ -13,6 +13,10 @@ Existing features:
 
 -Stores Username and Pass
 
+-Create Posts
+
+-View Existing "User"s
+
 Upcoming/Unfinished Features:
 
 -More robust registration; error checking (duplication, criteria, etc.), email...
