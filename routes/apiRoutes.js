@@ -23,7 +23,7 @@ module.exports = function(app) {
         });
     });
 
-    //Decrypt User's password
+    //API for proof of concept that the Decryptor works; and that the encryptor isn't just sending in random characters
     app.get("/api/users/decrypt/:id", function(req, res) {
         db.User.findOne({where: {id: req.params.id} }).then((dbUser)=>{
             var decrypted = key.decrypt(dbUser.pword);
