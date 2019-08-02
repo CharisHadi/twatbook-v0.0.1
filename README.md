@@ -2,7 +2,7 @@
 
 Current deployment: https://twat-book-v1.herokuapp.com/
 
-a primitive open-source Social-Media page with basic posts, feeds, and direct messaging. a name/logo combination derived from deprecating existing popular social media.
+a primitive open-source Social-Media page with basic posts, feeds, and direct messaging. a name/logo combination derived from satirizing existing popular social media.
 
 Works using express, express-handlebars, mySql2, sequelize, crypto, and dotenv.
 
