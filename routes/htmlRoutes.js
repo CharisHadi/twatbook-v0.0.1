@@ -9,6 +9,11 @@ module.exports = function(app) {
 
     });
 
+    app.get("/friends", function(req, res) {
+        db.User.findAll({}).then((dbUsers)=>{
+          res.render("friends", {users: dbUsers});
+        });
+    });
 
     //404 Page
       // Render 404 page for any unmatched routes

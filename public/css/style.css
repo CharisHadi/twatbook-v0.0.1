@@ -2,18 +2,21 @@
     font-family: 'Varela Round', sans-serif;
 }
 
-.btn-feed{
+#btn-feed{
     position: absolute;
     right:0;
     bottom:0;
 }
 
+.friend-list{
+    margin-top:20px;
+}
 
 #feedico{
     width:50px;
 }
 
-.btn-friend{
+#btn-friend{
     position:absolute;
     right:70px;
     bottom:0;
